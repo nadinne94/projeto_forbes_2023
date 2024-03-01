@@ -21,8 +21,6 @@ Portanto, devemos considerar as seguintes correções:
 **1.5** Transformação para Tipo Numérico: Por fim, as colunas manipuladas devem apresentar o tipo como numérico, facilitando análises quantitativas e cálculos estatísticos.
 Enfim, depois de muito falatório, mãos na massa!
 
-
-
 ## 2. Entendendo os valores
 
 Primeiro vamos verificar se temos mais valores em milhões ou em bilhões
@@ -36,7 +34,8 @@ O método ‘apply()’ é utilizado para verificar se cada valor na coluna cont
 
 O mesmo procedimento é repetido para ‘B’. Inicialmente, verificamos quantos valores em cada coluna contêm ‘B’ e, em seguida, somamos esses resultados para obter o total de valores em todas as colunas que contêm ‘B’.
 
-!(imagens/tratamento/counts.png)
+![](imagens/tratamento/counts.png)
+
 O resultado revela que a maioria dos valores no DataFrame está na escala de bilhões de dólares. Com o intuito de simplificar nossa análise e evitar lidar com números muito grandes, decidimos padronizar todos os valores para bilhões de dólares como unidade de medida.
 
 ## 3. Conversão
@@ -75,12 +74,12 @@ Durante cada iteração do loop, a função ‘convert_value’ é aplicada a ca
 
 Após aplicarmos a função de conversão, podemos visualizar o DataFrame e verificar que os valores foram adequadamente convertidos.
 
-!(imagens/tratamento/df_forbes.png)
+![](imagens/tratamento/df_forbes.png)
 
 Em seguida, ao utilizarmos o método ‘info()’, confirmamos a alteração da tipagem dos dados nas colunas em questão, garantindo que estejam consistentes e prontos para análises posteriores.
 
 
-!(imagens/tratamento/info.png)
+![](imagens/tratamento/info.png)
 
 ## 
 
