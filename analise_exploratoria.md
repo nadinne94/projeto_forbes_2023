@@ -14,13 +14,13 @@ Portanto, antes de prosseguir para a análise propriamente dita, é fundamental 
 
 Antes de tudo, devemos importar a biblioteca “pandas”:
 
-<img src=imagens/import.png align="center">
+![](imagens/analise_exp/import.png)
 
 **2. Carregando os Dados**
 
 Depois utilizaremos o método “pd.read_csv” da biblioteca “pandas”, para importar dados de um arquivo CSV e carregá-los em um DataFrame denominado“df_forbes”:
 
-<img src=imagens/pd.read.png align="center">
+![](imagens/analise_exp/pd.read.png)
 
 
 **3. Conhecendo os Dados**
@@ -29,13 +29,13 @@ Inicialmente, buscamos compreender o volume de dados, tipos de dados e a presen�
 
   **3.1 Tamanho do DataFrame**
 
-<img src=imagens/shape.png align="center">
+![](imagens/analise_exp/shape.png)
 
 Verificamos que o DataFrame possui 2000 linhas e 8 colunas.
 
   **3.2 Nome das colunas**
 
-<img src=imagens/columns.png align="center">
+![](imagens/analise_exp/columns.png)
 
 - ‘rank’: indica a posição da empresa no ranking.
 - ‘name’: nome da empresa.
@@ -50,23 +50,23 @@ Essas colunas fornecem informações sobre a posição, nome, localização, set
 
   **3.3 Tipo de dado referente a cada coluna**
 
-<img src=imagens/dtypes.png align="center">
+![](imagens/analise_exp/dtypes.png)
 
 Com exceção da coluna ‘rank’, que contém valores inteiros (int64), todas as outras colunas são do tipo objeto (object), o que geralmente significa que elas contêm texto ou uma combinação de caracteres. No entanto, nas colunas ‘sales’, ‘profit’, ‘assets’ e ‘market_value’, deveríamos esperar valores numéricos. Mas o fato de estarem sendo tratadas como objetos pode indicar a presença de caracteres não numéricos nessas colunas. Isso pode dificultar análises futuras, podendo ser necessário corrigir esses dados para garantir uma análise mais fácil e precisa.
 
   **3.4 Verificando a ausência de valores**
 
-<img src=imagens/isnull.png align="center">
+![](imagens/analise_exp/isnull.png)
 
 Todas as colunas retornaram 0, o que indica que não há valores ausentes nos dados.
 
 > O método info() fornece um resumo abrangente das informações do DataFrame, incluindo o número de entradas não nulas em cada coluna, o tipo de dados de cada coluna e um resumo geral do DataFrame. Ele pode substituir a necessidade de usar os atributos shape, columns e dtypes individualmente, além do método isnull(). Agrupar essas informações em um único bloco permite uma visão rápida e completa das características do DataFrame.
 
-<img src=imagens/info.png align="center">
+![](imagens/analise_exp/info.png)
 
   **3.5 Total de valores duplicados**
 
-<img src=imagens/duplicated.png align="center">
+![](imagens/analise_exp/duplicated.png)
 
 Constatamos que não há valores duplicados em nosso conjunto de dados. Isso é importante porque indica que cada entrada é única e não há necessidade de lidar com duplicatas durante a análise.
 
@@ -76,11 +76,11 @@ Dado o grande volume de dados, não é viável visualizá-los por completo. Ness
 
   **4.1 Primeiras linhas**
 
-<img src=imagens/head.png align="center">
+![](imagens/analise_exp/head.png)
 
   **4.2 Últimas linhas**
 
-<img src=imagens/tail.png align="center">
+![](imagens/analise_exp/tail.png)
 
 Pode-se observar nas colunas ‘sales’, ‘profit’, ‘assets’ e ‘market_value’ que alguns valores estão acompanhados das letras ‘B’ e ‘M’. Essa variação nas unidades sugere que os valores estão em diferentes escalas, representando bilhões e milhões, respectivamente. Para garantir consistência e facilitar a análise, é essencial remover esses indicadores de unidade e converter todos os valores das colunas para a mesma escala.
 
