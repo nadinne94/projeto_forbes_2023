@@ -104,7 +104,7 @@ for column in colunas_numericas:
 
 </div><div aling="justify">
     
-Perceberam a diferença?
+Percebem a diferença?
 
 Agora, ao suprimir a plotagem de outliers (showfliers=False), conseguimos visualizar melhor a distribuição dos valores no boxplot. Podemos observar os valores mínimos e máximos através do comprimento da cauda, e verificar se os dados estão mais concentrados entre o primeiro quartil e a mediana, ou entre a mediana e o terceiro quartil. Se a caixa (que representa o intervalo interquartil) é mais longa, os dados estão mais dispersos, enquanto se é mais curta, os dados estão mais concentrados em torno da mediana.
 
@@ -123,8 +123,10 @@ Parte I: [Análise Exploratória](analise_exploratoria.md)
 
 Parte II: [Tratamento dos Dados](tratamento.md)
 
-Parte III: [Análise Estatística](estatistica.md)
+**Parte III: Análise Estatística**
 
 Parte IV: [Outliers](outliers.md)
+
+Parte V: [Manipulando os Outliers](manipulacao_outliers.md)
 
 </div>
