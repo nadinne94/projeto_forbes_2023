@@ -91,3 +91,11 @@ Além disso, é importante notar que alguns valores são expressos em milhares d
 Concluindo, essa foi a etapa inicial da análise e, como podemos ver, conseguimos obter informações bastante relevantes para a manipulação dos dados. A próxima etapa será o tratamento dos dados, para estarem corretos e possamos extrair o conhecimento adequado do DataFrame. Espero que tenham gostado e até a próxima análise!
 
 </div>
+
+##
+
+[Transformação dos Dados](tratamento.md)
+
+[Análise Estatística](estatistica.md)
+
+[Outliers](outliers.md)
