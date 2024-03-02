@@ -169,4 +169,6 @@ Parte II: [Tratamento dos Dados](tratamento.md)
 
 Parte III: [Análise Estatística](estatistica.md)
 
+**Parte IV: Outliers**
+
 Parte V: [Manipulanção de Outliers](manipulacao_outliers.md)
