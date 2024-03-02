@@ -81,8 +81,18 @@ Em seguida, ao utilizarmos o método ‘info()’, confirmamos a alteração da 
 
 ![](imagens/tratamento/info.png)
 
-## 
+## Considerações
 
 Após o processo de tratamento de dados realizado, podemos concluir que agora nosso conjunto de dados está mais limpo, consistente e pronto para análise. Ao removermos as inconsistências nos formatos dos valores, padronizar as escalas e converter as colunas para o tipo numérico, garantimos que nossos dados estejam em um formato adequado para análises quantitativas e cálculos estatísticos. Essas etapas são essenciais para garantir a confiabilidade e a precisão de nossas análises futuras.
 
 O processo de tratamento de dados é fundamental em qualquer projeto de análise de dados, e os passos realizados aqui demonstram o cuidado e a atenção necessários para garantir a qualidade e a integridade dos nossos dados.
+
+##
+
+Parte I: [Análise Exploratória](analise_exploratoria.md)
+
+Parte II: [Tratamento dos Dados](tratamento.md)
+
+Parte III: [Análise Estatística](estatistica.md)
+
+Parte IV: [Outliers](outliers.md)
