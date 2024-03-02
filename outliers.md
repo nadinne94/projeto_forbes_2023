@@ -163,8 +163,10 @@ Para prosseguir com o projeto, é recomendável considerar os resultados obtidos
 
 ##
 
-[Análise Exploratória](analise_exploratoria.md)
+Parte I: [Análise Exploratória](analise_exploratoria.md)
 
-[Transformação dos Dados](tratamento.md)
+Parte II: [Tratamento dos Dados](tratamento.md)
 
-[Análise Estatística](estatistica.md)
+Parte III: [Análise Estatística](estatistica.md)
+
+Parte IV: [Outliers](outliers.md)
