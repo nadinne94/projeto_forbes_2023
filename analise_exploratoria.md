@@ -94,10 +94,12 @@ Concluindo, essa foi a etapa inicial da análise e, como podemos ver, conseguimo
 
 ##
 
-Parte I: [Análise Exploratória](analise_exploratoria.md)
+**Parte I: Análise Exploratória**
 
 Parte II: [Tratamento dos Dados](tratamento.md)
 
 Parte III: [Análise Estatística](estatistica.md)
 
 Parte IV: [Outliers](outliers.md)
+
+Parte V: [Manipulando os Outliers](manipulacao_outliers.md)
