@@ -171,4 +171,4 @@ Parte III: [Análise Estatística](estatistica.md)
 
 **Parte IV: Outliers**
 
-Parte V: [Manipulanção de Outliers](manipulacao_outliers.md)
+Parte V: [Manipulando os Outliers](manipulacao_outliers.md)
