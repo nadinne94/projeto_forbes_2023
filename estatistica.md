@@ -2,22 +2,19 @@
 
 <div align="justify">
 
-Estou de volta para compartilhar mais uma etapa do meu projeto de exploração do dataset que lista as empresas mais valiosas segundo o ranking da revista Forbes no ano de 2023.
+Nesta etapa do projeto, apliquei algumas técnicas estatísticas para descrever e sintetizar esse conjunto de valores, a fim de obter uma visão global da variação desses dados.
 
-Esta é a terceira etapa (para quem perdeu: parte I e parte II), na qual aplicarei algumas técnicas estatísticas para descrever e sintetizar esse conjunto de valores, possibilitando uma visão global da variação desses dados.
-
-###
-
+##
 Recapitulando, neste conjunto de dados temos 8 colunas:
 
-- ‘rank’
-- ‘name’ (nome)
-- ‘country’ (país)
-- ‘industry’ (indústria/setor)
-- ‘sales’ (vendas)
-- ‘profit’ (lucros)
-- ‘assets’ (ativos)
-- ‘market_value’ (valor de mercado)
+> - ‘rank’
+> - ‘name’ (nome)
+> - ‘country’ (país)
+> - ‘industry’ (indústria/setor)
+> - ‘sales’ (vendas)
+> - ‘profit’ (lucros)
+> - ‘assets’ (ativos)
+> - ‘market_value’ (valor de mercado)
 
 ## 1. Medidas Estatística Descritivas
 
