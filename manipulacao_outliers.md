@@ -138,6 +138,6 @@ Parte III: [Análise Estatística](estatistica.md)
 
 Parte IV: [Outliers](outliers.md)
 
-Parte V: [Manipulando Outliers](manipulacao_outliers.md)
+**Parte V: Manipulando Outliers**
 
 </div>
