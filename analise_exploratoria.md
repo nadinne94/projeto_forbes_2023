@@ -94,8 +94,10 @@ Concluindo, essa foi a etapa inicial da análise e, como podemos ver, conseguimo
 
 ##
 
-[Transformação dos Dados](tratamento.md)
+Parte I: [Análise Exploratória](analise_exploratoria.md)
 
-[Análise Estatística](estatistica.md)
+Parte II: [Tratamento dos Dados](tratamento.md)
 
-[Outliers](outliers.md)
+Parte III: [Análise Estatística](estatistica.md)
+
+Parte IV: [Outliers](outliers.md)
