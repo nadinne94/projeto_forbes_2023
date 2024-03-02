@@ -91,8 +91,10 @@ O processo de tratamento de dados é fundamental em qualquer projeto de análise
 
 Parte I: [Análise Exploratória](analise_exploratoria.md)
 
-Parte II: [Tratamento dos Dados](tratamento.md)
+**Parte II: Tratamento dos Dados**
 
 Parte III: [Análise Estatística](estatistica.md)
 
 Parte IV: [Outliers](outliers.md)
+
+Parte V: [Manipulando os Outliers](manipulacao_outliers.md)
