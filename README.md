@@ -24,7 +24,10 @@
 
   Como na análise exploratória inicial do conjunto de dados foram identificadas inconsistências nos formatos dos valores, exigiu-se algumas etapas de preparação para garantir a precisão das análises subsequentes. A descrição dessas etapas pode ser acessada no artigo **[Tratamento de Dados em Python](tratamento.md)**
 
-  Na terceira etapa do projeto, apliquei algumas técnicas estatísticas para descrever e sintetizar este conjunto de valores e obter uma visão global da variação desses dados. Além de medidas estastíscas básicas, observamos também a dispersão dos dados. Como é possível verificas no artigo **[Análise Estatística Descritiva](estatisica.md)**
+  Na terceira etapa do projeto, foram aplicadas algumas técnicas estatísticas para descrever e sintetizar este conjunto de valores e obter uma visão global da variação desses dados. Além de medidas estatísticas básicas, observamos também a dispersão dos dados. Como é possível verificar no artigo **[Análise Estatística Descritiva](estatisica.md)**
+
+   Após a análise estatística, identificou-se a necessidade de compreender melhor a presença dos valores extremos no dataset. Como pode ser visto na parte sobre **[Ouliers](outliers.md)**, utilizamos dois métodos para identificar a quantidade de outliers e analisar qual modelo se encaixa melhor no projeto.
+  
 
 Ao longo do projeto, serão compartilhadas as etapas subsequentes, que incluem análises mais aprofundadas, modelagem estatística e visualização de dados para comunicar efetivamente os resultados obtidos.
 
