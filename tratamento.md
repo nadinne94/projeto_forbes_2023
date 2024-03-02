@@ -10,15 +10,15 @@ Além disso, a presença de vírgulas em alguns valores expressos em milhares de
 
 Portanto, devemos considerar as seguintes correções:
 
-**1.1** Padronização da Escala: Devemos selecionar uma escala padrão para todas as colunas afetadas, seja bilhões ou milhões.
+* **1.1** Padronização da Escala: Devemos selecionar uma escala padrão para todas as colunas afetadas, seja bilhões ou milhões.
 
-**1.2** Remoção de Caracteres Especiais: É necessário remover os caracteres “B” e “M” dos valores, que indicam bilhões e milhões, respectivamente.
+* **1.2** Remoção de Caracteres Especiais: É necessário remover os caracteres “B” e “M” dos valores, que indicam bilhões e milhões, respectivamente.
 
-**1.3** Conversão para a Escala Selecionada: Os valores devem ser convertidos para a escala padrão escolhida, garantindo uniformidade e consistência nos dados.
+* **1.3** Conversão para a Escala Selecionada: Os valores devem ser convertidos para a escala padrão escolhida, garantindo uniformidade e consistência nos dados.
 
-**1.4** Padronização dos Dados de Milhares de Bilhões: alguns valores estão expressos em milhares de bilhões e apresentam vírgulas, o que pode interferir na consistência dos dados. Portanto, será necessário remover as vírgulas desses valores para garantir a uniformidade e a precisão nas análises.
+* **1.4** Padronização dos Dados de Milhares de Bilhões: alguns valores estão expressos em milhares de bilhões e apresentam vírgulas, o que pode interferir na consistência dos dados. Portanto, será necessário remover as vírgulas desses valores para garantir a uniformidade e a precisão nas análises.
 
-**1.5** Transformação para Tipo Numérico: Por fim, as colunas manipuladas devem apresentar o tipo como numérico, facilitando análises quantitativas e cálculos estatísticos.
+* **1.5** Transformação para Tipo Numérico: Por fim, as colunas manipuladas devem apresentar o tipo como numérico, facilitando análises quantitativas e cálculos estatísticos.
 Enfim, depois de muito falatório, mãos na massa!
 
 ## 2. Entendendo os valores
