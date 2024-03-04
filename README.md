@@ -40,7 +40,7 @@
 
     Aplicação de métodos para identificar como a manipulação dos outliers afetaria a análise
 
-  - **[Análise Estatística e de Distribuição](manipulacao_outliers.md)**
+  - **[Análise Estatística e de Distribuição](distribuicao_empresas.md)**
 
     Realizamos análises mais aprofundadas para compreender a distribuição dos dados e explorar relações entre as variáveis.
 
