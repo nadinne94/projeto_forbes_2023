@@ -19,17 +19,32 @@
 
 ### Metodologia
 <div align="justify">
-  
-  Utilizando a lista oficial disponibilizada pela Forbes referente ao ano de 2023, os dados foram cuidadosamente extraídos e armazenados em um arquivo CSV para posterior análise. A metodologia adotada neste projeto compreende várias etapas, começando com uma análise exploratória detalhada para compreender a estrutura e a natureza dos dados. É possível verifcar a documentação desta etapa no artigo publicado **[Análise Exploratória de Dados com Python: Um Guia Básico](analise_exploratoria.md)**
 
-  Como na análise exploratória inicial do conjunto de dados foram identificadas inconsistências nos formatos dos valores, exigiu-se algumas etapas de preparação para garantir a precisão das análises subsequentes. A descrição dessas etapas pode ser acessada no artigo **[Tratamento de Dados em Python](tratamento.md)**
+  - **[Análise Exploratória de Dados com Python: Um Guia Básico](analise_exploratoria.md)**
 
-  Na terceira etapa do projeto, foram aplicadas algumas técnicas estatísticas para descrever e sintetizar este conjunto de valores e obter uma visão global da variação desses dados. Além de medidas estatísticas básicas, observamos também a dispersão dos dados. Como é possível verificar no artigo **[Análise Estatística Descritiva](estatistica.md)**
+    Utilizando a lista oficial disponibilizada pela Forbes referente ao ano de 2023, os dados foram cuidadosamente extraídos e armazenados em um arquivo CSV para posterior análise. A metodologia adotada neste projeto compreende várias etapas, começando com uma análise exploratória detalhada para compreender a estrutura e a natureza dos dados.
 
-   Após a análise estatística, identificou-se a necessidade de compreender melhor a presença dos valores extremos no dataset. Como pode ser visto na parte sobre **[Ouliers](outliers.md)**, utilizamos dois métodos para identificar a quantidade de outliers e analisar qual modelo se encaixa melhor no projeto.
-  
+  - **[Tratamento de Dados em Python](tratamento.md)**
 
-Ao longo do projeto, serão compartilhadas as etapas subsequentes, que incluem análises mais aprofundadas, modelagem estatística e visualização de dados para comunicar efetivamente os resultados obtidos.
+    Como na análise exploratória inicial do conjunto de dados foram identificadas inconsistências nos formatos dos valores, exigiu-se algumas etapas de preparação para garantir a precisão das análises subsequentes. 
+
+  - **[Análise Estatística Descritiva](estatistica.md)**
+
+    Na terceira etapa do projeto, foram aplicadas algumas técnicas estatísticas para descrever e sintetizar este conjunto de valores e obter uma visão global da variação desses dados. Além de medidas estatísticas básicas, observamos também a dispersão dos dados.
+
+  - **[Ouliers](outliers.md)**
+
+    Após a análise estatística, identificou-se a necessidade de compreender melhor a presença dos valores extremos no dataset. Como pode ser visto neste artigo, utilizamos dois métodos para identificar a quantidade de outliers e analisar qual modelo se encaixa melhor no projeto.
+
+  - **[Manipulando os Outliers](manipulacao_outliers.md)**
+
+    Aplicação de métodos para identificar como a manipulação dos outliers afetaria a análise
+
+  - **[Análise Estatística e de Distribuição](manipulacao_outliers.md)**
+
+    Realizamos análises mais aprofundadas para compreender a distribuição dos dados e explorar relações entre as variáveis.
+
+Essas etapas nos permitiram compreender melhor os dados das empresas listadas na Forbes em 2023 e entender um pouco mais sobre a distribuição, desempenho e características das mesmas.
 
 </div>
 
