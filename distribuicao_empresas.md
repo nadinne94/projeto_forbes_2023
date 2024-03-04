@@ -4,7 +4,9 @@
 
 ## Introdução
 
-Através desta análise exploramos a distribuição das empresas por faixa de valor de mercado, identificando tendências, padrões e parâmetros importantes sobre o cenário empresarial global. Além disso, examinamos a correlação entre o valor de mercado das empresas e outras métricas-chave, bem como sua distribuição geográfica e por setores. Esta análise busca compreender o panorama empresarial atual e quais são as características das empresas com melhor desempenho no mercado.
+Ao longo deste estudo, buscamos compreender não apenas a composição e os padrões gerais dos dados, mas também a influência de valores extremos (outliers) na classificação das empresas. Embora tenhamos investigado a presença desses outliers no conjunto de dados, decidimos mantê-los durante parte da análise, reconhecendo sua importância para entender como eles afetam a posição das empresas na classificação da Forbes.
+
+Nossa análise explorou a distribuição das empresas por faixa de valor de mercado, identificando tendências, padrões e parâmetros importantes sobre o cenário empresarial global. Além disso, examinamos a correlação entre o valor de mercado das empresas e outras métricas-chave, bem como sua distribuição geográfica e por setores. Esta análise visa compreender o panorama empresarial atual e as características das empresas com melhor desempenho no mercado.
 
 ## Análise da Distribuição das Empresas
 
