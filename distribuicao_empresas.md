@@ -1,4 +1,4 @@
-# Análise Estatística e Distribuição das Empresas da Lista Forbes
+# Análise Estatística e de Distribuição 
 
 <div align="justify">
 
@@ -103,16 +103,10 @@ Parte II: [Tratamento dos Dados](tratamento.md)
 
 Parte III: [Análise Estatística](estatistica.md)
 
-**Parte IV: Outliers](Parte I: [Análise Exploratória](analise_exploratoria.md)
-
-Parte II: [Tratamento dos Dados](tratamento.md)
-
-Parte III: [Análise Estatística](estatistica.md)
-
-**Parte IV: Outliers**
+Parte IV: [Outliers](outliers.md)
 
 Parte V: [Manipulando os Outliers](manipulacao_outliers.md))
 
-Parte V: [Manipulando os Outliers](manipulacao_outliers.md)
+**Parte VI: Análise Estatística e de Distribuição**
 
 </div>
