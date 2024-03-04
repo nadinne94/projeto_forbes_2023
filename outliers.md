@@ -173,4 +173,4 @@ Parte III: [Análise Estatística](estatistica.md)
 
 Parte V: [Manipulando os Outliers](manipulacao_outliers.md)
 
-Parte VI: [Análise Estatística e de Distribuição](manipulacao_outliers.md)
+Parte VI: [Análise Estatística e de Distribuição](distribuicao_empresas.md)
