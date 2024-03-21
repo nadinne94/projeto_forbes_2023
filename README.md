@@ -17,6 +17,10 @@
 
 </div>
 
+### Ferramentas: 
+
+- Python, Análise Estatísitca: medidas, frquência e dispersão.
+
 ### Metodologia
 <div align="justify">
 
