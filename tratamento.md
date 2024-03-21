@@ -2,7 +2,7 @@
 
 ## 1. Apresentando o problema
 
-Como apresentado neste artigo aqui, identifiquei uma questão relevante que pode afetar nossa análise: a inconsistência nos formatos dos valores das colunas “sales”, “profit”, “assets” e “market_value”.
+Como apresentado na [Parte I](analise_exploratoria.md), identifiquei uma questão relevante que pode afetar nossa análise: a inconsistência nos formatos dos valores das colunas “sales”, “profit”, “assets” e “market_value”.
 
 Essas colunas apresentam valores em diferentes escalas, alguns expressos em bilhões e outros em milhões. Essa disparidade pode distorcer nossas análises e assim, comprometer a interpretação dos resultados.
 
@@ -19,7 +19,7 @@ Portanto, devemos considerar as seguintes correções:
 * **1.4** Padronização dos Dados de Milhares de Bilhões: alguns valores estão expressos em milhares de bilhões e apresentam vírgulas, o que pode interferir na consistência dos dados. Portanto, será necessário remover as vírgulas desses valores para garantir a uniformidade e a precisão nas análises.
 
 * **1.5** Transformação para Tipo Numérico: Por fim, as colunas manipuladas devem apresentar o tipo como numérico, facilitando análises quantitativas e cálculos estatísticos.
-Enfim, depois de muito falatório, mãos na massa!
+
 
 ## 2. Entendendo os valores
 
