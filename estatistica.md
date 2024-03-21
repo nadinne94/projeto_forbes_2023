@@ -32,31 +32,31 @@ Agora, vamos visualizar as medidas estatísticas básicas:
 # calcula estatísticas descritivas das variáveis numéricas
 colunas_numericas.describe()
 ```
-</div><div aling="center">
+</div><div align="center">
     
 ![](imagens/estatistica/describe.png)
 
-</div><div aling="justify">
+</div><div align="justify">
 
 Devido à presença de valores negativos, procurei verificar se eram frutos de algum erro na etapa de ETL. No entanto, constatei que os valores estão de acordo com a lista original disponibilizada no site da Forbes. Portanto, existem algumas empresas em que os valores das métricas são realmente negativos.
 
 Observamos também uma grande amplitude na variação desses valores, indicando uma grande disparidade entre as empresas. Algumas têm valores em bilhões, outras em milhões e algumas estão negativadas. Além disso, notamos uma diferença significativa entre a média e a mediana, o que sugere a presença de alguns valores extremamente altos que puxam a média para cima, indicando uma possível assimetria positiva. O desvio padrão também revela um grau de dispersão dentro do conjunto de dados. Quanto maior a distância de zero, menos uniformes são os dados.
 
-</div><div aling="center">
+</div><div align="center">
     
 ![](imagens/estatistica/agg.png)
 
-</div><div aling="justify">
+</div><div align="justify">
     
 ### 1.2. mode()
 
 Para identificar os valores mais frequentes neste DataFrame, a moda pode ser aplicada não apenas às colunas numéricas, mas também às colunas categóricas, como aquelas referentes aos países e setores.
 
-</div><div aling="center">
+</div><div align="center">
     
 ![](imagens/estatistica/mode.png)
 
-</div><div aling="justify">
+</div><div align="justify">
     
 É válido ressaltar que, em uma lista com a classificação de empresas, é altamente improvável que duas ou mais empresas tenham exatamente o mesmo valor para métricas como ativos, vendas ou lucros. Isso se deve à natureza única e específica de cada empresa, com suas próprias operações, estruturas e desempenho financeiro. Portanto, se por acaso ocorrer a repetição de valores nessas métricas, é mais provável ser uma coincidência decorrente da diversidade e complexidade das empresas listadas, em vez de indicar uma tendência significativa ou padrão.
 
@@ -76,11 +76,11 @@ for column in colunas_numericas:
     sns.boxplot(data = df_forbes , x = column, color='cyan',showfliers=True) # indica que os valores discrepantes (outliers) devem ser exibidos no gráfico.
     plt.title("Boxplot: "+column + " in billion USD")
 ```
-</div><div aling="center">
+</div><div align="center">
     
 ![](imagens/estatistica/plot_com_outlier.png)
 
-</div><div aling="justify">
+</div><div align="justify">
     
 Nos gráficos de caixa, observamos uma considerável quantidade de outliers representados pelos pontos fora dos limites da caixa. Isso sugere uma grande dispersão nos valores de algumas empresas, resultando em uma desuniformidade na classificação, e a análise do gráfico é inviabilizada.
 
@@ -98,11 +98,11 @@ for column in colunas_numericas:
     sns.boxplot(data = df_forbes , x = column, color='cyan',showfliers=False) # indica que os valores discrepantes (outliers) devem ser exibidos no gráfico.
     plt.title("Boxplot: "+column + " in billion USD")
 ```
-</div><div aling="center">
+</div><div align="center">
     
 ![](imagens/estatistica/plot_sem_outlier.png)
 
-</div><div aling="justify">
+</div><div align="justify">
     
 Percebem a diferença?
 
